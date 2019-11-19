@@ -1,11 +1,11 @@
 # custom-made aliases
-alias install="sudo aptitude install"
-alias update="sudo aptitude update"
-alias upgrade="sudo aptitude upgrade"
-alias remove="sudo aptitude remove"
-alias purge="sudo aptitude remove --purge"
-alias search="aptitude search"
-alias show="aptitude show"
+alias install="sudo apt install"
+alias update="sudo apt update"
+alias upgrade="sudo apt upgrade"
+alias remove="sudo apt remove"
+alias purge="sudo apt remove --purge"
+alias search="apt search"
+alias show="apt show"
 alias up2="sudo aptitude update && sudo aptitude upgrade"
 
 # gcp is a cp with progress bar
@@ -20,6 +20,8 @@ alias t="tmux"
 alias v="vim"
 alias e="vim"
 alias mk="make"
+
+alias c="clear"
 
 # Git aliases in addition to oh-my-zsh
 alias gshow="git show"
