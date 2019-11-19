@@ -5,11 +5,12 @@ antigen use oh-my-zsh
 antigen bundle zsh-users/zsh-syntax-highlighting
 antigen bundle zsh-users/zsh-history-substring-search
 antigen bundle git
-antigen theme bira
+antigen theme denysdovhan/spaceship-prompt
 antigen bundle dirhistory
 antigen bundle python
 antigen bundle sudo
 antigen bundle posva/catimg
+antigen bundle zsh-users/zsh-autosuggestions
 antigen apply
 
 
