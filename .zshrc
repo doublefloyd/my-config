@@ -37,7 +37,9 @@ bindkey '^[[B' history-substring-search-down
 export PYTHONPATH=$PYTHONPATH:~/.my-config/python
 
 # Switch colon and semicolon
-xmodmap -e "keycode 47 = colon semicolon"
+if [ -n "${DISPLAY+x}" ]; then
+    xmodmap -e "keycode 47 = colon semicolon"
+fi
 
 # Force terminal to have 256 colors for imgcat
 export TERM=xterm-256color
