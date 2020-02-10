@@ -3,9 +3,14 @@ My configuration files: zsh, vim, git, aliases
 
 ## Install
 
-1. Install zsh
+1. Install powerline font
 ```
-sudo aptitude install zsh
+Instructions found here: https://github.com/powerline/fonts
+```
+
+2. Install zsh
+```
+sudo apt install zsh
 ```
 
 3a. LINUX: Install the config from this repo. WARNING: This removes anaconda and the current config.
